@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body,
+#app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 400px;
+  grid-row-gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.row {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+button.md {
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+button.sm {
+  padding: 6px 10px;
+  font-size: 0.75em;
+}
+
+svg {
+  display: inline-block;
+}
+
+svg.sm {
+  width: 12px;
+  height: 12px;
+}
+
+svg.md {
+  width: 16px;
+  height: 16px;
+}
+
+button svg {
+  margin: 0 6px 0 0;
+}

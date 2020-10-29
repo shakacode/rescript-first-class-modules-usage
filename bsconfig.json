@@ -1,0 +1,19 @@
+{
+  "name": "rescript-first-class-modules-usage",
+  "sources": [
+    "src"
+  ],
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3,
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": ["-open Belt"],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js"
+}

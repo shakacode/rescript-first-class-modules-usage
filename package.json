@@ -1,0 +1,25 @@
+{
+  "name": "rescript-first-class-modules-usage",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "prestart": "npm run bs:build",
+    "bs:build": "bsb -clean-world -make-world",
+    "bs:watch": "bsb -clean-world -make-world -w"
+  },
+  "author": "Alex Fedoseev <alex.fedoseev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reason-react": "^0.9.1"
+  },
+  "devDependencies": {
+    "@mdx-js/parcel-plugin-mdx": "^1.6.19",
+    "@mdx-js/react": "^2.0.0-next.8",
+    "bs-platform": "^8.3.1",
+    "default": "^0.1.1",
+    "parcel-bundler": "1.12.4"
+  }
+}
